@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "push": "git add . && git commit -m edit && git push"
   },
   "dependencies": {
     "classnames": "^2.5.1",
